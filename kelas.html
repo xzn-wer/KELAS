@@ -1,0 +1,369 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kelas 12 IPA 3 - SMAN 3 Garut</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+        
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #f8f9fa;
+            color: #333;
+        }
+        
+        .logo-badge {
+            background: linear-gradient(135deg, #1e3a8a 0%, #2563eb 100%);
+        }
+        
+        .announcement-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+        }
+        
+        .gallery-item:hover img {
+            transform: scale(1.03);
+        }
+        
+        @media (max-width: 768px) {
+            .hero-title {
+                font-size: 1.8rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header class="bg-white shadow-sm">
+        <div class="container mx-auto px-4 py-4 flex justify-between items-center">
+            <div class="flex items-center space-x-2">
+                <div class="logo-badge w-12 h-12 rounded-lg flex items-center justify-center text-white font-bold text-xl">
+                    <span>12</span>
+                </div>
+                <div>
+                    <h1 class="text-xl font-bold text-blue-900">IPA 3</h1>
+                    <p class="text-sm text-gray-600">SMAN 3 Garut</p>
+                </div>
+            </div>
+            <nav class="hidden md:block">
+                <ul class="flex space-x-8">
+                    <li><a href="#home" class="text-blue-800 hover:text-blue-600 font-medium">Beranda</a></li>
+                    <li><a href="#about" class="text-gray-600 hover:text-blue-600 font-medium">Profil</a></li>
+                    <li><a href="#gallery" class="text-gray-600 hover:text-blue-600 font-medium">Galeri</a></li>
+                    <li><a href="#contact" class="text-gray-600 hover:text-blue-600 font-medium">Kontak</a></li>
+                </ul>
+            </nav>
+            <button class="md:hidden text-gray-600">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                </svg>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="py-16 bg-gradient-to-r from-blue-50 to-indigo-50">
+            <div class="container mx-auto px-4 flex flex-col md:flex-row items-center">
+                <div class="md:w-1/2 mb-8 md:mb-0">
+                    <h2 class="hero-title text-3xl md:text-4xl font-bold text-blue-900 mb-4">
+                        Selamat Datang di Kelas <span class="text-blue-600">12 IPA 3</span>
+                    </h2>
+                    <p class="text-lg text-gray-700 mb-6">
+                        SMA Negeri 3 Garut - Tahun Ajaran 2025/2026
+                    </p>
+                    <div class="flex space-x-4">
+                        <a href="#about" class="bg-blue-700 hover:bg-blue-800 text-white px-6 py-2 rounded-lg font-medium transition duration-300">
+                            Kenali Kami
+                        </a>
+                        <a href="#gallery" class="border border-blue-700 text-blue-700 hover:bg-blue-50 px-6 py-2 rounded-lg font-medium transition duration-300">
+                            Lihat Galeri
+                        </a>
+                    </div>
+                </div>
+                <div class="md:w-1/2">
+                    <img src="foto kelas.jpeg" alt="Kelompok siswa 12 IPA 3 SMAN 3 Garut sedang belajar bersama di kelas yang terang" class="rounded-lg shadow-xl w-full" />
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="py-16 bg-white">
+            <div class="container mx-auto px-4">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl font-bold text-blue-900 mb-2">Profil Kelas</h2>
+                    <div class="w-24 h-1 bg-blue-600 mx-auto"></div>
+                </div>
+                
+                <div class="grid md:grid-cols-3 gap-8 mb-12">
+                    <div class="bg-blue-50 rounded-lg p-6 shadow-sm">
+                        <div class="w-14 h-14 bg-blue-100 rounded-full flex items-center justify-center mb-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-blue-700" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z" />
+                            </svg>
+                        </div>
+                        <h3 class="text-xl font-semibold text-blue-900 mb-2">Data Siswa</h3>
+                        <p class="text-gray-700">
+                            Kelas 12 IPA 3 terdiri dari 36 siswa yang berprestasi, dengan wali kelas Bapak/Ibu [Nama Wali Kelas].
+                        </p>
+                    </div>
+                    
+                    <div class="bg-blue-50 rounded-lg p-6 shadow-sm">
+                        <div class="w-14 h-14 bg-blue-100 rounded-full flex items-center justify-center mb-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-blue-700" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+                            </svg>
+                        </div>
+                        <h3 class="text-xl font-semibold text-blue-900 mb-2">Visi & Misi</h3>
+                        <p class="text-gray-700">
+                            Menjadi kelas teladan yang berprestasi akademik dan non-akademik serta memiliki karakter yang kuat.
+                        </p>
+                    </div>
+                    
+                    <div class="bg-blue-50 rounded-lg p-6 shadow-sm">
+                        <div class="w-14 h-14 bg-blue-100 rounded-full flex items-center justify-center mb-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-blue-700" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2" />
+                            </svg>
+                        </div>
+                        <h3 class="text-xl font-semibold text-blue-900 mb-2">Prestasi</h3>
+                        <p class="text-gray-700">
+                            Juara 1 Lomba kelas pangkalemna
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="max-w-4xl mx-auto">
+                    <h3 class="text-xl font-semibold text-blue-900 mb-4">Struktur Pengurus Kelas</h3>
+                    <div class="bg-white rounded-lg shadow-sm overflow-hidden">
+                        <table class="min-w-full divide-y divide-gray-200">
+                            <thead class="bg-blue-50">
+                                <tr>
+                                    <th class="px-6 py-3 text-left text-xs font-medium text-blue-900 uppercase tracking-wider">Jabatan</th>
+                                    <th class="px-6 py-3 text-left text-xs font-medium text-blue-900 uppercase tracking-wider">Nama</th>
+                                </tr>
+                            </thead>
+                            <tbody class="bg-white divide-y divide-gray-200">
+                                <tr>
+                                    <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">Ketua Kelas</td>
+                                    <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">M Rizki</td>
+                                </tr>
+                                <tr>
+                                    <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">Wakil Ketua</td>
+                                    <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">[Nama Wakil]</td>
+                                </tr>
+                                <tr>
+                                    <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">Sekretaris</td>
+                                    <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">[Nama Sekretaris]</td>
+                                </tr>
+                                <tr>
+                                    <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">Bendahara</td>
+                                    <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">[Nama Bendahara]</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Announcement Section -->
+        <section class="py-16 bg-blue-50">
+            <div class="container mx-auto px-4">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl font-bold text-blue-900 mb-2">Pengumuman Terkini</h2>
+                    <div class="w-24 h-1 bg-blue-600 mx-auto"></div>
+                </div>
+                <div class="grid md:grid-cols-2 lg:grid-cols-3 gap#### SORRY, I'LL STOP HERE AND CONTINUE THE CODE:
+
+```html
+                <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                    <div class="announcement-card bg-white rounded-lg shadow-sm p-6 transition duration-300">
+                        <div class="flex items-center mb-4">
+                            <div class="bg-yellow-100 text-yellow-800 text-xs font-medium px-3 py-1 rounded-full mr-3">Penting</div>
+                            <span class="text-xs text-gray-500">7 Juli 2025</span>
+                        </div>
+                        <h3 class="text-lg font-semibold text-blue-900 mb-2">Persiapan PD III</h3>
+                        <p class="text-gray-700 mb-4">
+                            Segera siapkan diri untuk menghadapi PD III duka iraha
+                        </p>
+                        <a href="#" class="text-blue-600 hover:text-blue-800 text-sm font-medium">Selengkapnya →</a>
+                    </div>
+                    
+                    <div class="announcement-card bg-white rounded-lg shadow-sm p-6 transition duration-300">
+                        <div class="flex items-center mb-4">
+                            <div class="bg-green-100 text-green-800 text-xs font-medium px-3 py-1 rounded-full mr-3">Info</div>
+                            <span class="text-xs text-gray-500">7 Juli 2025</span>
+                        </div>
+                        <h3 class="text-lg font-semibold text-blue-900 mb-2">Study Tour Aljabar</h3>
+                        <p class="text-gray-700 mb-4">
+                            Kelas akan mengadakan study tour ke aljabar,tapi te jadi wae
+                        </p>
+                        <a href="#" class="text-blue-600 hover:text-blue-800 text-sm font-medium">Selengkapnya →</a>
+                    </div>
+                    
+                    <div class="announcement-card bg-white rounded-lg shadow-sm p-6 transition duration-300">
+                        <div class="flex items-center mb-4">
+                            <div class="bg-blue-100 text-blue-800 text-xs font-medium px-3 py-1 rounded-full mr-3">Update</div>
+                            <span class="text-xs text-gray-500">7 Juli 2025</span>
+                        </div>
+                        <h3 class="text-lg font-semibold text-blue-900 mb-2">Jadwal masuk sekolah</h3>
+                        <p class="text-gray-700 mb-4">
+                            sekolah akan masuk pada tanggal 14 Juli 2025, pastikan semua siswa hadir tepat waktu munte hoream
+                        </p>
+                        <a href="#" class="text-blue-600 hover:text-blue-800 text-sm font-medium">Selengkapnya →</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Gallery Section -->
+        <section id="gallery" class="py-16 bg-white">
+            <div class="container mx-auto px-4">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl font-bold text-blue-900 mb-2">Galeri Mini</h2>
+                    <div class="w-24 h-1 bg-blue-600 mx-auto"></div>
+                </div>
+                
+                <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+                    <div class="gallery-item overflow-hidden rounded-lg">
+                        <img src="https://placehold.co/400x300" alt="Foto bersama kelas 12 IPA 3 di depan sekolah SMAN 3 Garut dengan seragam putih abu-abu" class="w-full h-auto object-cover transition duration-300" />
+                    </div>
+                    <div class="gallery-item overflow-hidden rounded-lg">
+                        <img src="bika.jpeg" alt="Aktivitas belajar mengajar di dalam kelas dengan papan tulis penuh materi pelajaran" class="w-full h-auto object-cover transition duration-300" />
+                    </div>
+                    <div class="gallery-item overflow-hidden rounded-lg">
+                        <img src="agustusan.jpeg" alt="Kegiatan ekstrakurikuler siswa 12 IPA 3 sedang bermain musik di aula sekolah" class="w-full h-auto object-cover transition duration-300" />
+                    </div>
+                    <div class="gallery-item overflow-hidden rounded-lg">
+                        <img src="renang.jpeg" alt="Perayaan ulang tahun salah satu siswa di halaman sekolah dengan balon warna-warni" class="w-full h-auto object-cover transition duration-300" />
+                    </div>
+                    <div class="gallery-item overflow-hidden rounded-lg">
+                        <img src="muslim.jpeg" alt="Dokumentasi praktikum fisika di laboratorium SMAN 3 Garut dengan alat-alat percobaan" class="w-full h-auto object-cover transition duration-300" />
+                    </div>
+                    <div class="gallery-item overflow-hidden rounded-lg">
+                        <img src="https://placehold.co/400x300" alt="Kegiatan bakti sosial siswa membersihkan lingkungan sekitar sekolah" class="w-full h-auto object-cover transition duration-300" />
+                    </div>
+                    <div class="gallery-item overflow-hidden rounded-lg">
+                        <img src="https://placehold.co/400x300" alt="Siswa berpose setelah memenangkan lomba cerdas cermat antar kelas" class="w-full h-auto object-cover transition duration-300" />
+                    </div>
+                    <div class="gallery-item overflow-hidden rounded-lg">
+                        <img src="https://placehold.co/400x300" alt="Kegiatan pentas seni dengan siswa menampilkan tarian tradisional" class="w-full h-auto object-cover transition duration-300" />
+                    </div>
+                </div>
+                <div class="h-9"></div>
+
+
+
+
+    <footer class="bg-blue-900 text-white py-8">
+        <div class="container mx-auto px-4">
+            <div class="grid md:grid-cols-4 gap-8">
+                <div>
+                    <div class="flex items-center space-x-2 mb-4">
+                        <div class="logo-badge w-10 h-10 rounded-lg flex items-center justify-center text-white font-bold text-lg">
+                            <span>12</span>
+                        </div>
+                        <span class="text-xl font-bold">IPA 3</span>
+                    </div>
+                    <p class="text-blue-200">
+                        Kelas 12 IPA 3 SMA Negeri 3 Garut Tahun Ajaran 2025/2026
+                    </p>
+                </div>
+                
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Tautan Cepat</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#home" class="text-blue-200 hover:text-white">Beranda</a></li>
+                        <li><a href="#about" class="text-blue-200 hover:text-white">Profil Kelas</a></li>
+                        <li><a href="#gallery" class="text-blue-200 hover:text-white">Galeri</a></li>
+                        <li><a href="#contact" class="text-blue-200 hover:text-white">Kontak</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Alamat</h3>
+                    <address class="text-blue-200 not-italic">
+                        Jl. Ahmad Yani No. 77<br>
+                        Garut, Jawa Barat<br>
+                        Indonesia 44185<br>
+                        Telp: te gaduh
+                    </address>
+                </div>
+                
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Media Sosial</h3>
+                    <div class="flex space-x-4">
+                        <a href="#" class="w-10 h-10 bg-blue-800 hover:bg-blue-700 rounded-full flex items-center justify-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"/>
+                            </svg>
+                        </a>
+                        <a href="https://www.instagram.com/sciencethree.3g/" class="w-10 h-10 bg-blue-800 hover:bg-blue-700 rounded-full flex items-center justify-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+                            </svg>
+                        </a>
+                        <a href="#" class="w-10 h-10 bg-blue-800 hover:bg-blue-700 rounded-full flex items-center justify-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M22.675 0h-21.35c-.732 0-1.325.593-1.325 1.325v21.351c0 .731.593 1.324 1.325 1.324h11.495v-9.294h-3.128v-3.622h3.128v-2.671c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.463.099 2.795.143v3.24l-1.918.001c-1.504 0-1.795.715-1.795 1.763v2.313h3.587l-.467 3.622h-3.12v9.293h6.116c.73 0 1.323-.593 1.323-1.325v-21.35c0-.732-.593-1.325-1.325-1.325z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="border-t border-blue-800 mt-8 pt-6 text-center text-blue-300 text-sm">
+                <p>&copy; 2025 Kelas 12 IPA 3 SMAN 3 Garut. Seluruh hak cipta dilindungi.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="back-to-top" class="fixed bottom-6 right-6 bg-blue-700 hover:bg-blue-800 text-white rounded-full p-3 shadow-lg hidden transition duration-300">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+            <path fill-rule="evenodd" d="M14.707 12.707a1 1 0 01-1.414 0L10 9.414l-3.293 3.293a1 1 0 01-1.414-1.414l4-4a1 1 0 011.414 0l4 4a1 1 0 010 1.414z" clip-rule="evenodd" />
+        </svg>
+    </button>
+
+    <script>
+        // Mobile Menu Toggle
+        document.querySelector('button.md\\:hidden').addEventListener('click', function() {
+            const nav = document.querySelector('nav.hidden');
+            nav.classList.toggle('hidden');
+            nav.classList.toggle('block');
+        });
+
+        // Back to Top Button
+        const backToTopButton = document.getElementById('back-to-top');
+        window.addEventListener('scroll', function() {
+            if (window.pageYOffset > 300) {
+                backToTopButton.classList.remove('hidden');
+            } else {
+                backToTopButton.classList.add('hidden');
+            }
+        });
+        
+        backToTopButton.addEventListener('click', function() {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>
+
+
+
+
+
