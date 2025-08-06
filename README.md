@@ -41,7 +41,7 @@ Selamat datang di repository resmi website **Kelas 12 IPA 3** SMA Negeri 3 Garut
 ## 📱 Media Sosial
 
 - Instagram: [@sciencethree.3g](https://www.instagram.com/sciencethree.3g/)
-
+- Instagram: [@zforw4ll](https://www.instagram.com/zforw4ll/)
 ---
 
 ## 👨‍💻 Kontributor
