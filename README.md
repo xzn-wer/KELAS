@@ -34,7 +34,7 @@ Selamat datang di repository resmi website **Kelas 12 IPA 3** SMA Negeri 3 Garut
     git clone https://github.com/xzn-wer/KELAS.git
     ```
 2. Buka file `index.html` langsung di browser (double klik atau drag ke Chrome/Firefox).
-3. Selesai! Tidak perlu server atau instalasi tambahan.
+3. Selesai! gak perlu server atau instalasi tambahan.
 
 ---
 
