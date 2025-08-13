@@ -4,7 +4,7 @@ Selamat datang di repository resmi website **Kelas 12 IPA 3** SMA Negeri 3 Garut
 
 ## 🌐 Demo Langsung
 
-👉 [Kunjungi Website](https://nama-project.vercel.app)
+👉 [Kunjungi Website](https://kelas-ruby.vercel.app/)
 
 ---
 
